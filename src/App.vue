@@ -12,25 +12,11 @@
 					<small class="text-muted">Updated at {{updateAt}}</small>
 				</div>
 			</div>
-			
+
 		</div>
 
 	</div>
 </template>
-
-<style scoped>
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-*{
-	font-family: "Poppins";
-}
-p{
-	font-size: 20px;
-}
-.content{
-	margin-top: 5%;
-}
-</style>
 
 <script>
 import axios from "axios";
@@ -51,3 +37,17 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+	font-family: "Poppins";
+}
+p{
+	font-size: 20px;
+}
+.content{
+	margin-top: 5%;
+}
+</style>
